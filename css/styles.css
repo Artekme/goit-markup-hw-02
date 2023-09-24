@@ -56,6 +56,9 @@ ol {
 .studio-part-footer {
   color: var(--CLOUD);
 }
+.contacts-items {
+  font-style: normal;
+}
 .list {
   list-style: none;
 }
@@ -64,7 +67,7 @@ ol {
 }
 .contacts {
   font-style: normal;
-  color: var(--NAVY-BLUE);
+  color: var(--SLATE);
   letter-spacing: 0.32px;
   text-decoration: none;
   font-style: normal;
@@ -141,7 +144,7 @@ ol {
   letter-spacing: 0.32px;
 }
 .footer {
-  background-color: var(--NAVY-BLUE)
+  background-color: var(--NAVY-BLUE);
 }
 .call-to-action {
   color: var(--CLOUD);

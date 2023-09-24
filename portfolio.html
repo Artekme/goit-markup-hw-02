@@ -11,102 +11,126 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
         <a class="logo" href="./index.html"> <span class="web-part">Web</span>Studio</a>
-        <ul class="nav-items">
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <ul>
+          <li><a class="nav-item" href="./index.html">Studio</a></li>
+          <li><a class="nav-item" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="nav-item" href="">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul class="contacts">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul>
+          <li><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="contacts" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
 
     <main>
       <section class="realized-projects">
-        <h2>Interactive portfolio of the company</h2>
+        <h2 class="hidden-title">Interactive portfolio of the company</h2>
         <nav>
           <ul class="filter-buttons">
-            <li><button type="button">All</button></li>
-            <li><button type="button">Web Site</button></li>
-            <li><button type="button">App</button></li>
-            <li><button type="button">Design</button></li>
-            <li><button type="button">Marketing</button></li>
+            <li><button class="button-all" type="button">All</button></li>
+            <li><button class="button-web-site" type="button">Web Site</button></li>
+            <li><button class="button-app" type="button">App</button></li>
+            <li><button class="button-design" type="button">Design</button></li>
+            <li><button class="button-marketing" type="button">Marketing</button></li>
           </ul>
         </nav>
         <ul class="projects-gallery">
           <li>
-            <img src="./images/img-8.jpg" alt="Design of Banking App Interface" width="360" />
-            <h3>Banking App Interface Concept</h3>
-            <p>App</p>
+            <a href=""
+              ><img src="./images/img-8.jpg" alt="Design of Banking App Interface" width="360"
+            /></a>
+            <h3 class="gallery-card-name">Banking App Interface Concept</h3>
+            <p class="gallery-card-desription">App</p>
           </li>
           <li>
-            <img src="./images/img-9.jpg" alt="Hand holding phone that reads QR code" width="360" />
-            <h3>Cashless Payment Marketing</h3>
-            <p>Marketing</p>
+            <a href=""
+              ><img
+                src="./images/img-9.jpg"
+                alt="Hand holding phone that reads QR code"
+                width="360"
+            /></a>
+            <h3 class="gallery-card-name">Cashless Payment Marketing</h3>
+            <p class="gallery-card-desription">Marketing</p>
           </li>
           <li>
-            <img
-              src="./images/img-10.jpg"
-              alt="Notebook and phone showing the product"
-              width="360"
-            />
-            <h3>Meditation App App</h3>
-            <p>App</p>
+            <a href="">
+              <img
+                src="./images/img-10.jpg"
+                alt="Notebook and phone showing the product"
+                width="360"
+              />
+            </a>
+            <h3 class="gallery-card-name">Meditation App App</h3>
+            <p class="gallery-card-desription">App</p>
           </li>
           <li>
-            <img src="./images/img-11.jpg" alt="Driver inside the car" width="360" />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <a href=""><img src="./images/img-11.jpg" alt="Driver inside the car" width="360" /></a>
+            <h3 class="gallery-card-name">Taxi Service</h3>
+            <p class="gallery-card-desription">Marketing</p>
           </li>
           <li>
-            <img
-              src="./images/img-12.jpg"
-              alt="Screen Illustrations Design with the Moon"
-              width="360"
-            />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <a href="">
+              <img
+                src="./images/img-12.jpg"
+                alt="Screen Illustrations Design with the Moon"
+                width="360"
+              />
+            </a>
+            <h3 class="gallery-card-name">Screen Illustrations</h3>
+            <p class="gallery-card-desription">Design</p>
           </li>
           <li>
-            <img
-              src="./images/img-13.jpg"
-              alt="Young stylish woman at street using phone with headset"
-              width="360"
-            />
-            <h3>Online Courses Marketing</h3>
-            <p>Marketing</p>
+            <a href="">
+              <img
+                src="./images/img-13.jpg"
+                alt="Young stylish woman at street using phone with headset"
+                width="360"
+              />
+            </a>
+            <h3 class="gallery-card-name">Online Courses Marketing</h3>
+            <p class="gallery-card-desription">Marketing</p>
           </li>
           <li>
-            <img
-              src="./images/img-14.jpg"
-              alt="Screen Illustrations Design with short haired woman"
-              width="360"
-            />
-            <h3>Instagram Stories Concept</h3>
-            <p>Design</p>
+            <a href="">
+              <img
+                src="./images/img-14.jpg"
+                alt="Screen Illustrations Design with short haired woman"
+                width="360"
+              />
+            </a>
+            <h3 class="gallery-card-name">Instagram Stories Concept</h3>
+            <p class="gallery-card-desription">Design</p>
           </li>
           <li>
-            <img
-              src="./images/img-15.jpg"
-              alt="A woman walking by the street with string bag and fruits inside"
-              width="360"
-            />
-            <h3>Organic Food</h3>
-            <p>Web Site</p>
+            <a href="">
+              <img
+                src="./images/img-15.jpg"
+                alt="A woman walking by the street with string bag and fruits inside"
+                width="360"
+              />
+            </a>
+            <h3 class="gallery-card-name">Organic Food</h3>
+            <p class="gallery-card-desription">Web Site</p>
           </li>
           <li>
-            <img src="./images/img-16.jpg" alt="Barista pours coffee with foam" width="360" />
-            <h3>Fresh Coffee</h3>
-            <p>Web Site</p>
+            <a href=""
+              ><img src="./images/img-16.jpg" alt="Barista pours coffee with foam" width="360"
+            /></a>
+            <h3 class="gallery-card-name">Fresh Coffee</h3>
+            <p class="gallery-card-desription">Web Site</p>
           </li>
         </ul>
       </section>

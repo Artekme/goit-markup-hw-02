@@ -47,7 +47,7 @@ ol {
   font-weight: 800;
   color: var(--IRIS);
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .studio-part {

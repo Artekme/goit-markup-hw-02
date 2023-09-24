@@ -1,39 +1,60 @@
+:root {
+  --SLATE: #434455;
+  --LIGHT-SLATE: #8e8f99;
+  --WHITE: #fff;
+  --NAVY-BLUE: #2e2f42;
+  --NAVY-BLUE-MODAL: #2e2f4266;
+  --OCEAN: #404bbf;
+  --IRIS: #4d5ae5;
+  --CLOUD: #f4f4fd;
+  --CORNFLOWER: #e7e9fc;
+  --GREEN: #31d0aa;
+  --GREY: #2e2f42b3;
+  --DAIRY: #fcfcfc;
+}
+
 body {
-  font-family: Roboto, Releway, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-style: normal;
   line-height: 24px;
   letter-spacing: 2%;
-  color: var(--SLATE, #434455);
-  background: var(--WHITE, #fff);
+  color: var(--SLATE);
+  background: var(--WHITE);
 }
 ul,
 ol {
   list-style-type: none;
 }
 .nav-item {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--NAVY-BLUE);
   font-weight: 500;
   letter-spacing: 0.32px;
   text-decoration: none;
 }
 .nav-item:hover,
 .nav-item:focus {
-  color: var(--OCEAN, #404bbf);
+  color: var(--OCEAN);
 }
 
 .logo {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px;
+  color: var(--IRIS);
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  text-decoration: none;
 }
-.web-part {
-  color: var(--IRIS, #4d5ae5);
+.studio-part {
+  color: var(--NAVY-BLUE);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 .contacts {
   color: inherit;
@@ -43,10 +64,10 @@ ol {
 }
 .contacts:hover,
 .contacts:focus {
-  color: var(--OCEAN, #404bbf);
+  color: var(--OCEAN);
 }
 .tagline {
-  color: var(--WHITE, #fff);
+  color: var(--WHITE);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -54,37 +75,30 @@ ol {
   letter-spacing: 1.12px;
 }
 .order-button {
-  color: var(--WHITE, #fff);
+  color: var(--WHITE);
   /* font-family: inherit; */
   font-weight: 500;
   letter-spacing: 0.64px;
-  border-radius: 4px;
   border-style: none;
-  background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
 }
 .order-button:hover {
-  background: var(--OCEAN, #404bbf);
+  background: var(--OCEAN);
 }
 .hidden-title {
   visibility: hidden;
 }
 .benefit-title {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--NAVY-BLUE);
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.4px;
 }
 .benefit-text {
-  color: var(--SLATE, #434455);
+  color: var(--SLATE);
   letter-spacing: 0.32px;
 }
 .section-title {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--NAVY-BLUE);
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
@@ -93,7 +107,7 @@ ol {
   text-transform: capitalize;
 }
 .employee-name {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--NAVY-BLUE);
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -101,47 +115,36 @@ ol {
   letter-spacing: 0.4px;
 }
 .employee-speciality {
-  color: var(--SLATE, #434455);
+  color: var(--SLATE);
   text-align: center;
   letter-spacing: 0.32px;
 }
 .call-to-action {
-  width: 264px;
-  color: var(--CLOUD, #f4f4fd);
+  color: var(--CLOUD);
   letter-spacing: 0.32px;
 }
 .button-all {
-  color: var(--WHITE, #fff);
+  color: var(--WHITE);
   text-align: center;
   font-weight: 500;
   letter-spacing: 0.64px;
-  border-radius: 4px;
   border-style: none;
-  background: var(--OCEAN, #404bbf);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08),
-    0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  display: flex;
-  padding: 12px 24px;
-  /* align-items: flex-start; */
+  background: var(--OCEAN);
 }
 .button-web-site,
 .button-app,
 .button-design,
 .button-marketing {
-  color: var(--IRIS, #4d5ae5);
+  color: var(--IRIS);
   font-weight: 500;
   letter-spacing: 0.64px;
   text-align: center;
-  border-radius: 4px;
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--CLOUD, #f4f4fd);
-  display: flex;
-  padding: 12px 24px;
+  border: 1px solid var(--CORNFLOWER);
+  background: var(--CLOUD);
   justify-content: center;
-  align-items: center;
 }
 .gallery-card-name {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--NAVY-BLUE);
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.4px;

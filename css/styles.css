@@ -30,11 +30,14 @@ ol {
 .nav-item {
   color: var(--NAVY-BLUE);
   font-weight: 500;
-  letter-spacing: 0.32px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .nav-item:hover,
-.nav-item:focus {
+.nav-item:focus,
+.nav-item:active {
   color: var(--OCEAN);
 }
 
@@ -50,6 +53,9 @@ ol {
 .studio-part {
   color: var(--NAVY-BLUE);
 }
+.studio-part-footer {
+  color: var(--CLOUD);
+}
 .list {
   list-style: none;
 }
@@ -57,7 +63,8 @@ ol {
   text-decoration: none;
 }
 .contacts {
-  color: inherit;
+  font-style: normal;
+  color: var(--NAVY-BLUE);
   letter-spacing: 0.32px;
   text-decoration: none;
   font-style: normal;
@@ -66,22 +73,30 @@ ol {
 .contacts:focus {
   color: var(--OCEAN);
 }
+.hero-section-container {
+  background-color: var(--NAVY-BLUE);
+}
 .tagline {
   color: var(--WHITE);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 1.12px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 .order-button {
   color: var(--WHITE);
-  /* font-family: inherit; */
+  background-color: var(--IRIS);
+  font-family: inherit;
   font-weight: 500;
-  letter-spacing: 0.64px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border-style: none;
+  cursor: pointer;
 }
-.order-button:hover {
+.order-button:hover,
+.order-button:focus {
   background: var(--OCEAN);
 }
 .hidden-title {
@@ -97,14 +112,20 @@ ol {
   color: var(--SLATE);
   letter-spacing: 0.32px;
 }
+.about-team-section {
+  background-color: var(--CLOUD);
+}
 .section-title {
   color: var(--NAVY-BLUE);
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-align: center;
   text-transform: capitalize;
+}
+.employee-card {
+  background-color: var(--WHITE);
 }
 .employee-name {
   color: var(--NAVY-BLUE);
@@ -119,10 +140,16 @@ ol {
   text-align: center;
   letter-spacing: 0.32px;
 }
+.footer {
+  background-color: var(--NAVY-BLUE)
+}
 .call-to-action {
   color: var(--CLOUD);
   letter-spacing: 0.32px;
 }
+
+/* Portfolio styles part */
+
 .button-all {
   color: var(--WHITE);
   text-align: center;

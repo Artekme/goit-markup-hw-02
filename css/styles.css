@@ -153,32 +153,38 @@ ol {
 
 /* Portfolio styles part */
 
-.button-all {
-  color: var(--WHITE);
-  text-align: center;
-  font-weight: 500;
-  letter-spacing: 0.64px;
-  border-style: none;
-  background: var(--OCEAN);
-}
-.button-web-site,
-.button-app,
-.button-design,
-.button-marketing {
+.filter-button {
+  font-family: "Roboto", sans-serif;
   color: var(--IRIS);
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-style: none;
+  background-color: var(--CLOUD);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--WHITE);
   font-weight: 500;
   letter-spacing: 0.64px;
   text-align: center;
-  border: 1px solid var(--CORNFLOWER);
-  background: var(--CLOUD);
+  background-color: var(--OCEAN);
   justify-content: center;
 }
 .gallery-card-name {
   color: var(--NAVY-BLUE);
   font-size: 20px;
   font-weight: 500;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing:0.02em;
 }
 .gallery-card-desription {
-  letter-spacing: 0.32px;
+  color: var(--SLATE);
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+
 }
